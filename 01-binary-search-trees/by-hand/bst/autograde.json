@@ -1,0 +1,42 @@
+[
+  {
+    "testName": "sanity",
+    "points": 10
+  },
+  {
+    "testName": "init",
+    "points": 10
+  },
+  {
+    "testName": "insert",
+    "points": 10
+  },
+  {
+    "testName": "contains",
+    "points": 10
+  },
+  {
+    "testName": "getNode",
+    "points": 10
+  },
+  {
+    "testName": "size",
+    "points": 10
+  },
+  {
+    "testName": "toArray",
+    "points": 10
+  },
+  {
+    "testName": "remove.simple",
+    "points": 10
+  },
+  {
+    "testName": "remove.medium",
+    "points": 10
+  },
+  {
+    "testName": "remove.hard",
+    "points": 10
+  }
+]
