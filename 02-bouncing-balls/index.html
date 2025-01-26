@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bouncing Balls</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="controls-container">
+        <canvas id="preview" width="100" height="100"></canvas>
+        <div class="controls">
+            <label>Size: <input type="range" id="sizeRange" min="5" max="50" value="15"></label>
+            <label>Speed: <input type="range" id="speedRange" min="1" max="15" value="8"></label>
+            <label>Color: <input type="color" id="colorPicker"></label>
+            <button onclick="addBall()">Add Ball</button>
+            <button onclick="clearBalls()">Clear All</button>
+            <button id="soundToggle" onclick="toggleSound()">Sound: On</button>
+        </div>
+        <div class="batch-controls">
+            <input type="number" id="batchSize" min="1" max="100" value="5">
+            <button onclick="addRandomBalls()">Add Random</button>
+        </div>
+    </div>
+    <div class="instructions">
+        Click on a ball to remove it
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
