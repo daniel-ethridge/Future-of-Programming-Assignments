@@ -1,3 +1,3 @@
 [submodule "03-math-education"]
-	path = personal-experiments/03-math-education
+	path = personal-experiments/math-education
 	url = git@github.com:daniel-ethridge/math-education.git
