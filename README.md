@@ -19,3 +19,6 @@ The purpose of this class is to explore the current limits (Spring 2025) of LLMs
         - By http: `git clone https://github.com/daniel-ethridge/Future-of-Programming-Assignments.git`
         - By ssh: `git clone git@github.com:daniel-ethridge/Future-of-Programming-Assignments.git`
     - Open the file `Future-of-Programming-Assignments/02-bouncing-balls/index.html` in a web browser.
+
+# Assignment 3: Pacman
+In about 30 minutes, I created a pacman clone using javascript. 
